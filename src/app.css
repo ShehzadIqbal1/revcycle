@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-sans:
+		'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	--color-navy: #0b2d5b;
+	--color-navy-dark: #071f3f;
+	--color-navy-light: #123c77;
+	--color-blue: #1877f2;
+	--color-blue-hover: #1464cc;
+	--color-blue-light: #ebf3fe;
+	--color-emerald: #10b981;
+	--color-emerald-dark: #059669;
+	--color-emerald-light: #d1fae5;
+	--color-mint: #e6f7f3;
+	--color-mint-dark: #c7ece4;
+}
+
+/* Explicit Utility Classes for Theme Tokens */
+.bg-navy {
+	background-color: #0b2d5b;
+}
+.text-navy {
+	color: #0b2d5b;
+}
+.border-navy {
+	border-color: #0b2d5b;
+}
+
+.bg-blue {
+	background-color: #1877f2;
+}
+.text-blue {
+	color: #1877f2;
+}
+.border-blue {
+	border-color: #1877f2;
+}
+
+.bg-emerald {
+	background-color: #10b981;
+}
+.text-emerald {
+	color: #10b981;
+}
+.border-emerald {
+	border-color: #10b981;
+}
+
+.bg-mint {
+	background-color: #e6f7f3;
+}
+.text-mint {
+	color: #e6f7f3;
+}
+.border-mint {
+	border-color: #e6f7f3;
+}
+
+:root {
+	--font-family-sans: 'Poppins', sans-serif;
+	--color-primary-navy: #0b2d5b;
+	--color-accent-blue: #1877f2;
+	--color-accent-emerald: #10b981;
+	--color-soft-mint: #e6f7f3;
+}
+
+html {
+	font-family:
+		'Poppins',
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		sans-serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: inherit;
+	background-color: #ffffff;
+	color: #1e293b;
+	margin: 0;
+	padding: 0;
+}
