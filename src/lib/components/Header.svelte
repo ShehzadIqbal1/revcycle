@@ -10,7 +10,7 @@
 		ChevronDown,
 		Menu,
 		X
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 
 	let mobileMenuOpen = $state(false);
 	let mobileServicesOpen = $state(false);

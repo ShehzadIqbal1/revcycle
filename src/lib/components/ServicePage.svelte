@@ -2,7 +2,7 @@
 	import { resolve } from '$app/paths';
 	import type { ServicePageContent } from '$lib/types/site';
 	import { serviceNav } from '$lib/data/services';
-	import { ArrowRight, CheckCircle2, PhoneCall } from 'lucide-svelte';
+	import { ArrowRight, CheckCircle2, PhoneCall } from '@lucide/svelte';
 
 	let { service }: { service: ServicePageContent } = $props();
 </script>

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import { serviceNav } from '$lib/data/services';
-	import { Activity, ShieldCheck } from 'lucide-svelte';
+	import { Activity, ShieldCheck } from '@lucide/svelte';
 </script>
 
 <footer class="border-t border-slate-800 bg-navy-dark py-14 text-xs text-slate-400">

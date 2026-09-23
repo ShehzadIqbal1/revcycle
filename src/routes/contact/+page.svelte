@@ -6,7 +6,7 @@
 		MapPin,
 		ArrowRight,
 		Users
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 
 	let activeTab = $state<'form' | 'emails' | 'locations'>('form');
 	let messageLength = $state(0);

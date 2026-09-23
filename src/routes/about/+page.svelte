@@ -12,7 +12,7 @@
 		Building,
 		Scale,
 		FileSpreadsheet
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 </script>
 
 <svelte:head>

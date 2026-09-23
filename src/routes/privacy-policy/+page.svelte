@@ -10,7 +10,7 @@
 		EyeOff,
 		CheckCircle2,
 		AlertCircle
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 </script>
 
 <svelte:head>

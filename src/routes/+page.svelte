@@ -24,7 +24,7 @@
 		Clock,
 		Star,
 		Check
-	} from 'lucide-svelte';
+	} from '@lucide/svelte';
 
 	// Map specialty icon names to Svelte component
 	const iconMap: Record<string, ComponentType> = {
